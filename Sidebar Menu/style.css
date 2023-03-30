@@ -10,6 +10,21 @@
 {
 	--bg: #2f323f;
 }
+.navigation ul li.list:nth-child(1) a {
+  --clr: #f44336;
+}
+.navigation ul li.list:nth-child(2) a {
+  --clr: #ffa117;
+}
+.navigation ul li.list:nth-child(3) a {
+  --clr: #0fc70f;
+}
+.navigation ul li.list:nth-child(4) a {
+  --clr: #2196f3;
+}
+.navigation ul li.list:nth-child(5) a {
+  --clr: #b145e9;
+}
 body 
 {
 	display: flex;
@@ -139,8 +154,6 @@ body
 	right: 22px;
 	transform: scale(1);
 }
-
-
 .navigation ul li a 
 {
 	position: relative;

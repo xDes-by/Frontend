@@ -1,8 +1,10 @@
-let navigation = document.querySelector('.navigation');
-let close = document.querySelector('.close');
-navigation.onclick = function(){
-    navigation.classList.add('active');
-}
-close.onclick = function(){
-    navigation.classList.remove('active');
-}
+$(document).ready(function () {
+    var navigation = $('.navigation');
+    var close = $('.close');
+    navigation.click(function () {
+        navigation.addClass('active');
+    });
+    close.click(function () {
+        navigation.removeClass('active');
+    });
+});
